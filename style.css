@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    padding: 50px 0;
+    margin: auto;
+}
+
+
+input {
+       
+    padding: 5px 0;
+    border-radius: 5px;
+    }
+
+
+input:focus {
+    border-color: #bdbdbd7c;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(160, 11, 210, 0.25);
+     }
+
+select {
+    padding: 5px;
+    border: 2px solid #8c3535;
+    border-radius: 5px;
+}
+option:active {
+    outline: 0.15em solid #00f;
+    background-color:#00f;
+  }
